@@ -25,9 +25,14 @@
 
 /* REGOLE DESKTOP */
 
-/* regole di colonna */
-
 @media screen and (min-width:992px) {
+
+  #wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+/* regole di colonna */
 
   .col-lg-1 {
     width: calc((1/12)*100%);
@@ -133,10 +138,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-  .row {
-    width: 90%;
-    margin: 10vh auto;
-  }
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* regole di colonna */
 
@@ -243,6 +248,11 @@
 /* REGOLE SMARTPHONE */
 
 @media screen and (max-width:767px) {
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
 
 /* regole di colonna */
 
