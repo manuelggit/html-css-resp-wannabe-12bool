@@ -133,6 +133,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+  .row {
+    width: 90%;
+    margin: 10vh auto;
+  }
+
 /* regole di colonna */
 
   .col-md-1 {
